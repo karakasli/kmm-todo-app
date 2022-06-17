@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_3xs">1dp</dimen>
+    <dimen name="margin_2xs">2dp</dimen>
+    <dimen name="margin_xs">4dp</dimen>
+    <dimen name="margin_s">6dp</dimen>
+    <dimen name="margin_m">8dp</dimen>
+    <dimen name="margin_l">10dp</dimen>
+    <dimen name="margin_xl">12dp</dimen>
+    <dimen name="margin_2l">14dp</dimen>
+    <dimen name="margin_3xl">16dp</dimen>
+
+    <dimen name="radius_xs">2dp</dimen>
+    <dimen name="radius_s">4dp</dimen>
+    <dimen name="radius_m">8dp</dimen>
+    <dimen name="radius_l">12dp</dimen>
+    <dimen name="radius_xl">16dp</dimen>
+</resources>

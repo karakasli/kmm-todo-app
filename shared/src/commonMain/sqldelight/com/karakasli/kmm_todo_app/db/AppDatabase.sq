@@ -1,0 +1,27 @@
+CREATE TABLE todos(
+    uuid TEXT NOT NULL,
+    title TEXT NOT NULL,
+    body TEXT,
+    is_completed INTEGER AS Boolean NOT NULL DEFAULT 0
+);
+
+CREATE INDEX todos_uuid ON todos(uuid);
+
+select:
+SELECT  * FROM todos WHERE uuid=?;
+
+selectAll:
+SELECT * FROM todos;
+
+insert:
+INSERT INTO todos(uuid, title, body, is_completed) VALUES (?,?,?,?);
+
+update:
+UPDATE  todos SET title=?, body=?, is_completed=? WHERE  uuid=?;
+
+updateTodoStatus:
+UPDATE todos SET is_completed=? WHERE uuid=?;
+
+remove:
+DELETE FROM todos WHERE uuid=?;
+

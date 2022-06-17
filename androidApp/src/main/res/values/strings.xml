@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TodoApp</string>
+    <string name="marked_as_done">Marked as Done</string>
+    <string name="save">Save</string>
+    <string name="type_short_title">Type Short Title</string>
+    <string name="delete">Delete</string>
+</resources>

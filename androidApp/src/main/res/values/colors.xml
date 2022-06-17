@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorfulColor</color>
+    <color name="colorPrimaryDark">@color/backgroundColor</color>
+    <color name="colorAccent">@color/colorfulColor</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="darkTextColor">#272C35</color>
+    <color name="backgroundColor">#F6FAFB</color>
+    <color name="colorfulColor">#FE7461</color>
+    <color name="lightText">#AFAAA9</color>
+
+    <color name="checkboxUncheckedColor">#EDF1F3</color>
+    <color name="checkboxCheckedColor">#FE7461</color>
+    <color name="checkboxImageColor">@color/white</color>
+
+</resources>
